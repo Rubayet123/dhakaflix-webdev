@@ -328,7 +328,7 @@ Anyone (including you) can now easily deploy by running:
 
 ```bash
 # In Termux on Android
-git clone https://github.com/YOUR_USERNAME/dhaka-flix-webdav.git
+git clone https://github.com/Rubayet123/dhaka-flix-webdav.git
 cd dhaka-flix-webdav
 chmod +x setup.sh
 ./setup.sh
