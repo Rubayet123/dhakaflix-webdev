@@ -80,20 +80,21 @@ This configuration combines individual HTTP sources (`DHAKA-FLIX-1` through `4`)
 ```ini
 [DHAKA-FLIX-1]
 type = http
-url = http://172.16.50.7/DHAKA-FLIX-1/
+url = http://172.16.50.7/DHAKA-FLIX-7/
 
 [DHAKA-FLIX-2]
 type = http
-url = http://172.16.50.7/DHAKA-FLIX-2/
+url = http://172.16.50.9/DHAKA-FLIX-9/
 
 [DHAKA-FLIX-3]
 type = http
-url = http://172.16.50.7/DHAKA-FLIX-3/
+url = http://172.16.50.12/DHAKA-FLIX-12/
 
 [DHAKA-FLIX-4]
 type = http
-url = http://172.16.50.7/DHAKA-FLIX-4/
+url = http://172.16.50.14/DHAKA-FLIX-14/
 
+# Union remote that combines all sources
 [DHAKA-FLIX-All]
 type = union
 upstreams = DHAKA-FLIX-1: DHAKA-FLIX-2: DHAKA-FLIX-3: DHAKA-FLIX-4:
